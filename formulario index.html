@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>formulario</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+<body>
+<main>
+	<div class="container">
+		<header class="header">
+			<div class="titulo">
+				<h1 id="title">Encuesta anime</h1>
+					<p id="description">aqui veremos los animes mas populares tu decides en esta encuesta</p>
+			</div>
+	</header>
+			<form id="survey-form">
+				<div class="input-container">
+				<label id="name-label"><p class="nombre__label">nombre</p><br>
+					<input id="name" type="text" name="name" placeholder="nombre de usuario" required>
+				</label>
+				<label id="email-label"><p class="email__label">correo</p><br>
+					<input id="email" type="email" name="email" placeholder="correo electronico" required>
+				</label>
+				<label id="number-label"><p class="anime__number">>que tanto te gusta el<br> anime del 1 al 10?<br></p>
+					<input id="number" type="number" name="number" placeholder="1/10" min="1" max="10">
+				</label>
+				  </div>
+    <div class="form-group">
+      <p>genero favorito?</p>
+      <div class="select-center">
+<div class="form-group">
+      <select id="dropdown" name="role" class="form-control" required>
+        <option disabled selected value>cual es tu genero<br> de anime favorito?</option>
+        <option value="shingeki-no-kyojin">accion</option>
+        <option value="one-piece">aventura</option>
+        <option value="dragon-ball">comedia</option>
+        <option value="naruto">ciencia ficcion</option>
+        <option value="bleach">romance</option>
+        <option value="dragon-ball">terror</option>
+        <option value="dragon-ball">shounen</option>
+        <option value="dragon-ball">shoujo</option>
+        <option value="dragon-ball">seinen</option>
+        <option value="dragon-ball">josei</option>
+        <option value="dragon-ball">aren</option>
+        <option value="dragon-ball">isekai</option>
+        </div>
+      </select>
+      </div>
+    </div>
+    <div class="seleccion">
+    	<p>que te gusto mas del anime?</p>
+    	<div class="gusto__anime-1">
+    	<label id="seleccion__label">
+    		<input name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">historia</b> 	
+    	</label>
+    	<label id="seleccion__label">
+    		 <input	name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">animacion</b>
+    	</label>
+    	<label id="seleccion__label">
+    		 <input name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">personajes</b>
+    	</label>
+    	<label id="seleccion__label">
+    		 <input name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">waifus</b>
+    	</label>
+    	<label id="seleccion__label">
+    		 <input name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">husbandos</b>
+    	</label>
+    	<label id="seleccion__label">
+    		 <input name="user-recommend"
+          value="maybe"
+          type="radio"
+          class="input-radio"><b class="gusto__anime">opening</b>
+    	</label>
+    	</div>
+    </div>
+    <div class="asd">
+    	<p>en que eres mas exigente a la hora de ver un anime?</p>
+    	<div class="verificacion-1">
+    	<label class="verificacion__label">
+    		<input type="checkbox" name="verify"
+    		value="verify"><b>en la animacion</b>
+    	</label>
+    	<label class="verificacion">
+    		<input type="checkbox" name="verify" value="verify"><b>en el desarollo del prota</b>
+    	</label>
+    	<label class="verificacion">
+    		<input type="checkbox" name="verify" value="verify"><b>en la historia de todos los personajes</b>
+    	</label>
+    	<label class="verificacion">
+    		<input type="checkbox" name="verify" value="verify"><b>en los sountracks</b>
+    	</label>
+    	<label class="verificacion">
+    		<input type="checkbox" name="verify" value="verify"><b>en todo :v</b>
+    	</label>
+    	<label class="verificacion">
+    		<input type="checkbox" name="verify" value="verify"><b>en nada :v</b>
+    	</label>
+    </div>
+    </div>
+    	<div class="text-center">
+    		<textarea class="texto-descripcion" placeholder="y tu anime favorito es?"></textarea>
+    		</div>
+    		<div class="centrar-boton">
+    		<button id="submit">enviar respuestas</button></div>
+			</form>
+		</div>
+	</div>
+</main>
+	<footer id="footer">
+		<p>creador: <a class="footer-a" href="https://www.tiktok.com/@el_tio_dan_?is_from_webapp=1&sender_device=pc">@el_tio_dan</a></p>
+	</footer>
+
+
+</body>
+</html>
